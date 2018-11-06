@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orders</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <nav class="navbar has-shadow">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="images/transformers.png">
+      </a>
+      <div class="navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item">
+          <small>Your online bank</small>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">
+            Ethien Salinas
+          </div>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              <div>
+                <span class="icon">
+                  <i class="fas fa-user-circle"></i>
+                </span>
+                Profile
+              </div>
+            </a>
+            <a class="navbar-item">
+              <div>
+                <span class="icon">
+                  <i class="fa fa-bug"></i>
+                </span>
+                Report bug
+              </div>
+            </a>
+            <a class="navbar-item">
+              <div>
+                <span class="icon">
+                  <i class="fas fa-sign-out-alt"></i>
+                </span>
+                Sign out
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="columns">
+      <!-- left side menu -->
+      <div class="column is-4-tablet is-3-desktop is-2-widescreen">
+        <nav class="menu">
+          <p class="menu-label">Menu</p>
+          <ul class="menu-list">
+            <li><a href="dashboard.html">
+                <span class="icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </span>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="books.html">
+                <span class="icon">
+                  <i class="fa fa-book"></i>
+                </span>
+                Books
+              </a>
+            </li>
+            <li>
+              <a href="customers.html">
+                <span class="icon">
+                  <i class="fa fa-address-book"></i>
+                </span>
+                Customers
+              </a>
+            </li>
+            <li>
+              <a class="is-active" href="orders.html">
+                <span class="icon">
+                  <i class="far fa-file-alt"></i>
+                </span>
+                Orders
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- right side section -->
+      <div class="column">
+        <nav class="breadcrumb">
+          <ul>
+            <li><a href="orders.html">Orders</a></li>
+            <li class="is-active"><a>Edit order</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="subtitle is-3">
+          <span class="has-text-grey-light">Order</span>
+          <strong>787352</strong>
+        </h1>
+
+        <div class="columns is-desktop">
+          <!-- left column -->
+          <div class="column is-4-desktop is-3-widescreen">
+            <p class="heading"><strong>Date</strong></p>
+            <p class="content">Nov 18, 17:38</p>
+            <p class="heading"><strong>Status</strong></p>
+            <div class="buttons">
+              <button class="button is-small is-warning">In progress</button>
+              <button class="button is-small is-success is-outlined">Successful</button>
+              <button class="button is-small is-danger is-outlined">Failed</button>
+            </div>
+            <p class="heading"><strong>Customer</strong></p>
+            <p class="content">
+              <strong><a href="edit-customer.html">John Miller</a></strong>
+              <br>
+              <code>johnmiller@gmail.com</code>
+              <br>
+              55 Long Bridge road
+              <br>
+              78170 Los Angeles
+              <br>
+              United States
+            </p>
+          </div>
+          <!-- right column -->
+          <div class="column">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
